@@ -1,0 +1,138 @@
+body {
+    margin: 20px 50px 0 50px;
+    background-color: #F3F4ED;
+    font-family: poppins, sans-serif;
+}
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 12px;
+    }
+
+    div {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+
+    .content {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 664px){
+    html {
+        font-size: 10px;
+    }
+}
+ 
+.content {
+    min-height: 92vh;
+} 
+
+.website_name {
+    color: #F97B22;
+    font-size: 3.2rem;
+    margin: 0;
+}
+
+.heading_name {
+    font-size: 5rem;
+    margin: 10px 0;
+}
+
+@media (min-width: 850px){
+    strong {
+        position: relative;
+      }
+    
+    
+    strong::before {
+        background-color: #46b96c;
+    
+        content: "";
+        position: absolute;
+        width: calc(100% + 4px);
+        height: 30%;
+        left: -2px;
+        bottom: 8px;
+        z-index: -1;
+        transform: rotate(-2deg);
+    }
+}
+
+@media (min-width: 920px) {
+    .div {
+        margin: 70px 0 0;
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .first-div {
+        margin-right: 50px;
+    }
+    
+    img {
+        height: 200px;
+        float: left;
+        margin-right: 33px;
+    }
+}
+
+@media (max-width: 919px) and (min-width: 795px){
+    .div {
+        margin: 70px 0;
+    }
+
+    img {
+        height: 200px;
+    }
+
+    .imga {
+        float: left;
+        margin-right: 30px;
+    }
+
+    .imgb {
+        float: right;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 794px) {
+    .div {
+        margin: 40px 0;
+        width: 95%;
+    }
+
+    img {
+        height: 200px;
+    }
+
+    .content {
+        margin-bottom: 80px;
+    }
+}
+
+.desc {
+    font-size: 1em;
+}
+
+@media (max-width: 1372px) {
+    img {
+      float: none;
+    }
+
+    .content {
+        margin-bottom: 40px;
+    }
+}
+
+.footer-text {
+    text-align: right;
+    color: #2D2727;
+    font-size: 1em;
+}
