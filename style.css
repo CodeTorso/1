@@ -27,7 +27,7 @@ body {
         font-size: 10px;
     }
 }
- 
+
 .content {
     min-height: 92vh;
 } 
@@ -117,6 +117,12 @@ body {
     }
 }
 
+@media (max-width: 560px){
+    body {
+        margin: 12px 20px 0 20px
+    }
+}
+
 .desc {
     font-size: 1em;
 }
@@ -128,6 +134,39 @@ body {
 
     .content {
         margin-bottom: 40px;
+    }
+}
+
+
+@media (max-width: 450px){
+    html {
+        font-size: 8px;
+    }
+
+    img {
+        height: 170px;
+    }
+
+    h2 {
+        margin: 1px;
+    }
+
+    .div {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 370px){
+    html {
+        font-size: 7px;
+    }
+
+    .div {
+        font-size: 16px;
+    }
+
+    body {
+        margin: 12px 5px 0 5px;
     }
 }
 
